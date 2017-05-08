@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>{{ page.title }}</title>
+        <!-- link to main stylesheet -->
+        <link rel="stylesheet" type="text/css" href="/css/style.css">
+    </head>
+    <body>
+        <div class="container">
+            {{ content }}
+
+    <p>Some news below : </p>
+
+<ul class="posts">
+	  {% for post in site.posts %}
+	    <li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+	  {% endfor %}
+	</ul>
+    
+        </div>
+        <footer>
+                <a href="https://github.com/mrrtf">github.com/mrrtf</a>
+        </footer>
+    </body>
+</html>
