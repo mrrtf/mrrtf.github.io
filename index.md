@@ -14,6 +14,6 @@ Current team members on github :
 - [Ivana](https://github.com/ihrivnac)
 - [Laurent](https://github.com/aphecetche)
 - [Philippe](https://github.com/pillot)
-- Sean
+- [Sean](https://github.com/bazinski)
 - [Sebastien](https://github.com/sbinet-alice)
 
