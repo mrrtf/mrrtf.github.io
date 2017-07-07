@@ -1,0 +1,112 @@
+{
+    "padsizes": [
+        {
+            "id": 0,
+            "unit": "micron",
+            "dx": 6300,
+            "dy": 4200
+        },
+        {
+            "id": 1,
+            "unit": "micron",
+            "dx": 6300,
+            "dy": 8400
+        },
+        {
+            "id": 2,
+            "unit": "micron",
+            "dx": 6300,
+            "dy": 16800
+        },
+        {
+            "id": 3,
+            "unit": "micron",
+            "dx": 6300,
+            "dy": 33600
+        },
+        {
+            "id": 4,
+            "unit": "micron",
+            "dx": 7143,
+            "dy": 25000
+        },
+        {
+            "id": 5,
+            "unit": "micron",
+            "dx": 7143,
+            "dy": 50000
+        },
+        {
+            "id": 6,
+            "unit": "micron",
+            "dx": 7143,
+            "dy": 100000
+        },
+        {
+            "id": 7,
+            "unit": "micron",
+            "dx": 7500,
+            "dy": 5000
+        },
+        {
+            "id": 8,
+            "unit": "micron",
+            "dx": 7500,
+            "dy": 10000
+        },
+        {
+            "id": 9,
+            "unit": "micron",
+            "dx": 7500,
+            "dy": 20000
+        },
+        {
+            "id": 10,
+            "unit": "micron",
+            "dx": 8400,
+            "dy": 4200
+        },
+        {
+            "id": 11,
+            "unit": "micron",
+            "dx": 12600,
+            "dy": 4200
+        },
+        {
+            "id": 12,
+            "unit": "micron",
+            "dx": 15000,
+            "dy": 5000
+        },
+        {
+            "id": 13,
+            "unit": "micron",
+            "dx": 25000,
+            "dy": 5000
+        },
+        {
+            "id": 14,
+            "unit": "micron",
+            "dx": 25200,
+            "dy": 4200
+        },
+        {
+            "id": 15,
+            "unit": "micron",
+            "dx": 30000,
+            "dy": 5000
+        },
+        {
+            "id": 16,
+            "unit": "micron",
+            "dx": 50000,
+            "dy": 5000
+        },
+        {
+            "id": 17,
+            "unit": "micron",
+            "dx": 100000,
+            "dy": 5000
+        }
+    ]
+}
