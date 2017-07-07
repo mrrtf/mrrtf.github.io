@@ -70,6 +70,14 @@ A tiny [proof-of-concept of a web display](https://laphecet.web.cern.ch/laphecet
 converts them to some SVG that is turn displayed automagically by the browser. Looks it working fine with Chrome but not
 with Safari (certainly a direct consequence of trying to master SVG in 2 days ;-) ).
 
+On the C++ side, the code generator part is only starting... 
+
+```
+mchMappingCodeGenerator --de de.json
+```
+
+creates a `de.h` and `de.cxx` with very basic code inside for the moment...
+
 ## Achieved during the Hackathon
   
 ### Laurent 
