@@ -62,11 +62,11 @@ and [motiftypes.aliroot.txt]({{ site.url }}/assets/2017-07-07-5th-hackathon/moti
  
  Still missing is the description of sectors, as I'm still evaluating how to do it...
  
- ## Achieved during the Hackathon
+## Achieved during the Hackathon
   
- ### Laurent 
+### Laurent 
  
- The main achievement is probably the writing of [first tests](https://github.com/mrrtf/alo/blob/master/jsonmap/creator/testMapping.cxx) 
+  The main achievement is probably the writing of [first tests](https://github.com/mrrtf/alo/blob/master/jsonmap/creator/testMapping.cxx) 
  using  [Boost test framework](http://www.boost.org/doc/libs/1_64_0/libs/test/doc/html/index.html), the testing framework currently
  used by O2.
 
