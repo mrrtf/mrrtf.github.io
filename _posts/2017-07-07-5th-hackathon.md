@@ -19,7 +19,9 @@ The reading/writing of JSON files is handled by the [RapidJSON](http://rapidjson
 
 The actual format of the JSON files is still a moving target, but the first goal is to insure all the information required
  to rebuild a complete mapping is there.
- 
+
+## JSON creator
+
  Usage:
  ```
  > mch-mapping-convert-to-json
@@ -61,10 +63,16 @@ and [motiftypes.aliroot.txt]({{ site.url }}/assets/2017-07-07-5th-hackathon/moti
   21 different types (and 42 segmentations, as we have two planes per type)
  
  Still missing is the description of sectors, as I'm still evaluating how to do it...
- 
- ## Achieved during the Hackathon
+
+## JSON reader
+
+A tiny [proof-of-concept of a web display](https://laphecet.web.cern.ch/laphecet/alice/o2/mch/mapping/viewMotif.html) was written. Some rapidly hacked Javascript is reading the JSON files and
+converts them to some SVG that is turn displayed automagically by the browser. Looks it working fine with Chrome but not
+with Safari (certainly a direct consequence of trying to master SVG in 2 days ;-) ).
+
+## Achieved during the Hackathon
   
- ### Laurent 
+### Laurent 
  
  The main achievement is probably the writing of [first tests](https://github.com/mrrtf/alo/blob/master/jsonmap/creator/testMapping.cxx) 
  using  [Boost test framework](http://www.boost.org/doc/libs/1_64_0/libs/test/doc/html/index.html), the testing framework currently
