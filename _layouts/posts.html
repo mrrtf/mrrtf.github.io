@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>{{ page.title }}</title>
+  <!-- link to main stylesheet -->
+  <link rel="stylesheet" type="text/css" href="/css/style.css">
+</head>
+
+<body>
+  <div class="container">
+
+    <ul class="posts">
+      {% for post in site.posts %}
+      <li><span>{{ post.date | date_to_string }} » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title
+                            }}</a></span>
+        {{ post.excerpt }} <a class="more" href="{{ post.url}}">more...</a>
+      </li>
+      {% endfor %}
+    </ul>
+
+  </div>
+  {% include footer.html %}
+</body>
+
+</html>
