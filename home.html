@@ -3,46 +3,19 @@
 
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title></title>
-  <style>
-    .jira-grid {
-      width: 320px;
-      display: grid;
-      grid-template-columns: repeat(7, 35px);
-      grid-template-rows: repeat(3, 35px);
-    }
-
-    text {
-
-      text-anchor: middle;
-    }
-
-    .jira-target {
-      grid-column: auto / span 2;
-      grid-row: auto;
-      width: 70px;
-      height: 70px;
-    }
-
-    polygon {
-      fill: grey;
-    }
-
-    .jira-target:nth-of-type(4),
-    .jira-target:nth-of-type(10) {
-      grid-column-start: 2;
-    }
-
-    body {
-      //background: red;
-    }
-  </style>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400" rel="stylesheet">
+  <link rel="stylesheet" href="css/home.css">
   <svg xmlns="http://www.w3.org/2000/svg" style="display:none;">
     <symbol id="lozange">
       <polygon points="32 0, 64 32, 32 64, 0 32">
     </symbol>
+    <symbol id="big-lozange">
+      <polygon points="64 0, 128 64, 64 128, 0 64">
+    </symbol>
   </svg>
-  <svg height=0 width=0>
+  <svg style="height:0;width:0;position:absolute;">
     <defs>
       <linearGradient id="gradient1" x1="0%" y1="100%" x2="0%" y2="0%">
         <stop offset=0%" stop-color="black" />
@@ -50,88 +23,106 @@
       </linearGradient>
       <defs>
   </svg>
-
-
 </head>
 
 <body>
+  <header class="masthead">
+    <ul>
+      <li><a href="#blog">blog</a></li>
+      <li><a href="#about">about</a></li>
+      <li><a href="#github">github</a></li>
+      <li><a href="#indico">indico</a></li>
+      <li><a href="#jira">jira</a></li>
+    </ul>
+  </header>
 
-  <div>
-    Elit architecto fugit totam architecto et Nihil sit eaque odit atque quasi praesentium, recusandae In dolor in aut ex iusto minus Labore nesciunt quis perferendis fuga quae eos similique. Commodi facere incidunt unde dolorum iste error Deleniti aut voluptate ipsa minima est. Soluta modi qui pariatur necessitatibus alias Neque molestias!
-  </div>
+  <div class="container">
 
-  <div class="jira-grid">
+    <section class="jira">
 
-    <div class="jira-target">
-      <svg style="fill:url(#gradient1);">
-        <use xlink:href="icons.svg#icon-mch-tracking"></use>
-      </svg>
-    </div>
+      <div class="jira-header">
+        <svg>
+          <use xlink:href="#big-lozange"></use>
+        </svg>
+        <h1>jira epics</h1>
+      </div>
 
-    <div class="jira-target">
-      <svg>
-        <use xlink:href="#lozange"></use>
-      </svg>
-    </div>
+      <div class="jira-grid">
+        <div class="jira-target">
+          <svg style="fill:url(#gradient1);">
+            <use xlink:href="icons.svg#icon-mch-tracking"></use>
+          </svg>
+        </div>
 
-    <div class="jira-target">
-      <svg>
-        <use xlink:href="#lozange"></use>
-      </svg>
-    </div>
-    <div class="jira-target">
-      <svg>
-        <use xlink:href="#lozange"></use>
-      </svg>
-    </div>
-    <div class="jira-target">
-      <svg>
-        <use xlink:href="#lozange"></use>
-      </svg>
-    </div>
-    <div class="jira-target">
-      <svg>
-        <use xlink:href="#lozange"></use>
-      </svg>
-    </div>
-    <div class="jira-target">
-      <svg>
-        <use xlink:href="#lozange"></use>
-      </svg>
-    </div>
-    <div class="jira-target">
-      <svg>
-        <use xlink:href="#lozange"></use>
-      </svg>
-    </div>
-    <div class="jira-target">
-      <svg>
-        <use xlink:href="#lozange"></use>
-      </svg>
-    </div>
-    <div class="jira-target">
-      <svg>
-        <use xlink:href="#lozange"></use>
-      </svg>
-    </div>
-    <div class="jira-target">
-      <svg>
-        <use xlink:href="#lozange"></use>
-      </svg>
-    </div>
-    <div class="jira-target">
-      <svg>
-        <use xlink:href="#lozange"></use>
-      </svg>
-    </div>
+        <div class="jira-target">
+          <svg>
+            <use xlink:href="#lozange"></use>
+          </svg>
+        </div>
+
+        <div class="jira-target">
+          <svg>
+            <use xlink:href="#lozange"></use>
+          </svg>
+        </div>
+        <div class="jira-target">
+          <svg>
+            <use xlink:href="#lozange"></use>
+          </svg>
+        </div>
+        <div class="jira-target">
+          <svg>
+            <use xlink:href="#lozange"></use>
+          </svg>
+        </div>
+        <div class="jira-target">
+          <svg>
+            <use xlink:href="#lozange"></use>
+          </svg>
+        </div>
+        <div class="jira-target">
+          <svg>
+            <use xlink:href="#lozange"></use>
+          </svg>
+        </div>
+        <div class="jira-target">
+          <svg>
+            <use xlink:href="#lozange"></use>
+          </svg>
+        </div>
+        <div class="jira-target">
+          <svg>
+            <use xlink:href="#lozange"></use>
+          </svg>
+        </div>
+        <div class="jira-target">
+          <svg>
+            <use xlink:href="#lozange"></use>
+          </svg>
+        </div>
+        <div class="jira-target">
+          <svg>
+            <use xlink:href="#lozange"></use>
+          </svg>
+        </div>
+        <div class="jira-target">
+          <svg>
+            <use xlink:href="#lozange"></use>
+          </svg>
+        </div>
+        <div class="jira-target">
+          <svg>
+            <use xlink:href="#lozange"></use>
+          </svg>
+        </div>
+        <div class="jira-target">
+          <svg>
+            <use xlink:href="#lozange"></use>
+          </svg>
+        </div>
+      </div>
+    </section>
   </div>
 </body>
 
 </html>
-
-<!-- <use x="0" xlink:href="#lozange"></use> -->
-<!-- <use x="70" xlink:href="#lozange"></use> -->
-<!-- <use x="140" xlink:href="#lozange"></use> -->
-<!-- <use x="35" y="45" xlink:href="#lozange"></use> -->
-<!-- <use x="105" y="45" xlink:href="#lozange"></use> -->
-<!-- <use x="175" y="45" xlink:href="#lozange"></use> -->
